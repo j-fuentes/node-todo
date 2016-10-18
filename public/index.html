@@ -26,6 +26,16 @@
 	<script src="js/services/todos.js"></script> <!-- load our todo service -->
 	<script src="js/core.js"></script> <!-- load our main application -->
 
+	<!-- CUSTOM STYLE -->
+	<style>
+	.label-info {background-color: #e07454;}
+	.btn-primary {
+	    color: #fff;
+	    background-color: #e07454;
+	    border-color: #E07484;
+	}
+	</style>
+
 </head>
 <!-- SET THE CONTROLLER -->
 <body ng-controller="mainController">
@@ -33,7 +43,7 @@
 
 		<!-- HEADER AND TODO COUNT -->
 		<div class="jumbotron text-center">
-			<h1>TO-DO list v1 <span class="label label-info">{{ todos.length }}</span></h1>
+			<h1>TO-DO list v2 <span class="label label-info">{{ todos.length }}</span></h1>
 		</div>
 
 		<!-- TODO LIST -->
